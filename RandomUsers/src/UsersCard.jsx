@@ -110,7 +110,7 @@ Location: ${user.location.street.number} ${user.location.street.name}, ${user.lo
                   <img 
                     src={user.picture.large} 
                     alt={`${user.name.first} ${user.name.last}`} 
-                    className="w-16 h-16 rounded-full border-3 border-white/30 shadow-lg"
+                    className="w-16 h-16 rounded-full border-3 border-white/30 shadow-lg object-cover" 
                   />
                   <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-green-500 rounded-full border-2 border-white"></div>
                 </div>
